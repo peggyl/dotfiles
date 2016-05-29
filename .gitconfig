@@ -1,0 +1,16 @@
+[alias]
+  b = branch
+  ci = commit
+  co = checkout
+  l = log --abbrev-commit --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  pull = pull --rebase
+  rbi = rebase -i
+  st = status
+  x = commit --amend --no-edit
+[user]
+  email = peggyli.224@gmail.com
+  name = Peggy Li
+[push]
+  default = simple
+[credential]
+  helper = cache --timeout=3600
